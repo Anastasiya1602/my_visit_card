@@ -3,10 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Masterskaya Chavdar</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/main.css"> 
 </head>
+
 <body>
+
+  <header class="header">
+    <img class="logo" src="./images/Masterskaya CHavdar.png" alt="logo">
+
+    <section class="products">
+      <h2 class="products__title">PRODUCTS</h2>    
+      <nav class="products-navigation">
+        <button class="products-navigation__item">tatting jewelry </button>
+        <button class="products-navigation__item">portraits</button>
+        <button class="products-navigation__item">landscapes</button>  
+      </nav>
+    </section>
+  </header>
+
+  <div class="main">
+
+    <section class="info">      
+      <h2 class="info__title">ABOUT</h2>
+      <p class="info__description">
+        My name is Anastasia Chavdar, I graduated from Tyumen Medical Academy in 2008. I worked as a rheumatologist for 14 years. I really enjoy learning something new and I have many interests. For example, I love playing the drums and I used to play in metal bands. I also enjoy drawing. In my school years, I used to draw many portraits with pencils, and later I started painting with oil, watercolor, and oil pastels. I create jewelry using the technique of tatting and occasionally try my hand at writing music and stories. I used to read a lot, but now I have less time for it. I love learning foreign languages  and currently  I am actively learning Spanish and I have some knowledge of Hebrew. I am in spoken English. I adore movies, especially detective, action, fantasy, and science fiction genres. Of course, I love traveling and exploring the world. I enjoy cycling, ice skating, and playing badminton. I have also started learning programming, and this website serves as my mini portfolio to share my work and tell about myself. I would appreciate your feedback, messages, and perhaps even orders! Wishing everyone peace!
+        </p>
+    </section>  
   
+    <section class="feedback">
+      <h2 class="feedback__title">CONTACT WITH ME</h2>
+      <form action="" class="feedback-form">
+        <div class="form-container">
+          <input class="form__input" type="tel"  id="phone" name="tel" value="" pattern="+7 [0-100]-[9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"  maxlength="11"/>
+          <label class="labelphone"  for="phone">Your phone number
+          </label>
+        </div>
+        
+        <div class="form-container">
+          <input  class="form__input" type="text" id="email"/>
+          <label class="labelemail" for="email">your e-mail
+          </label>
+        </div>
   
+        <textarea name="" id="" cols="30" rows="10" class="form__message" placeholder="MESSAGE"></textarea>
+
+        <button class="form__submit">SEND A MESSAGE</button>
+      </form>
+    </section>
+    
+  </div>  
 </body>
 </html>
