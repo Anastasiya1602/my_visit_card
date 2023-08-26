@@ -439,9 +439,14 @@
 }
 
 @media screen and (max-width: 620px) {
-
   .modal-content {
     max-width: 400px;
+}
+
+
+.close-landscape {
+  color: #fff;
+  bottom: 20px;
 }
 
   .image {
@@ -465,6 +470,12 @@
   .products-navigation__item {
     border:none;
     background: none;  
+  }
+
+  .products-navigation__item:hover {
+    color: #2f84ac;
+    border: none;
+    background: none;
   }
 
   .hamburger-menu {
