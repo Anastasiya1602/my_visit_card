@@ -95,7 +95,7 @@
   right: 30px;
   bottom: 10px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 46px;
   color: #131510;
   border: none;
   background: none;
@@ -108,6 +108,11 @@
 .close-portrait {
   top: 20px;
   color: #fff;
+}
+
+.close-landscape {
+  color: #fff;
+  bottom: 20px;
 }
 
 .close:focus, .close:hover {
@@ -134,7 +139,7 @@
 }
 
 .image {
-  width: fit-content;
+  width: 1000px;
   border-radius: 30px;
 }
 
