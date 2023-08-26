@@ -133,9 +133,9 @@
   border-radius: 30px;
 }
 
-
-
-
+.hamburger-menu {
+  display: none;
+}
 
 
 @keyframes turning {
